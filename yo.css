@@ -1,0 +1,65 @@
+#capa {
+  width: 800px;
+  height: 650px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  border:4px solid #f60;
+  background: #fed;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+    #capa:hover{
+      background:#CCCCFF;
+    }
+
+#cod{
+
+  text-decoration: overline;
+  color: blue;
+  }
+
+#imagen {
+  float: left;
+  margin: 15px 10px 10px 0;
+  }
+
+/*con este metodo solo se vera en chrome y safari po el web kit(motor de navegacion y frameword(desarrollo de programas))  */
+#textoM {
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+  color: #DB8FB2;
+  font-size: 40px;
+  }
+
+
+#capa2 {
+      width: 750px;
+      height: 180px;
+      padding: 10px;
+      margin-left: 2%;
+      border:2px solid #f60;
+      background: #fed;
+      margin-top: 6%;
+      position: relative;
+      overflow: hidden;
+      background: #fed;
+      }
+
+.imagenA{
+  position: relative;
+  float: left;
+  margin: 3%;
+}
+   .imagenA:hover{
+       border-radius : 50% ;
+       -webkit-transform: scale(1.3);
+       -ms-transform: scale(1.3);
+       transform: scale(1.3)
+    }
+
+#sub{
+  text-align: center;
+  text-decoration: overline;
+  color: blue;
+}
